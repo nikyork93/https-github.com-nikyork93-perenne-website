@@ -1,9 +1,9 @@
 {
   "name": "perenne-note",
   "compatibility_date": "2024-09-23",
+  "main": "worker.js",
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS"
-  },
-  "main": "index.html"
+  }
 }
