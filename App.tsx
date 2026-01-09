@@ -3,10 +3,10 @@ import { BrandLogo } from './components/BrandLogo';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center bg-paper text-ink p-6 selection:bg-[#EAE8E4] selection:text-ink overflow-hidden">
+    <div className="h-[100dvh] w-full flex flex-col items-center justify-center bg-paper text-ink p-6 selection:bg-[#EAE8E4] selection:text-ink overflow-hidden supports-[height:100dvh]:h-[100dvh]">
       
       {/* Main Container */}
-      <main className="flex flex-col items-center w-full max-w-4xl space-y-12">
+      <main className="flex flex-col items-center w-full max-w-4xl space-y-8 md:space-y-12">
         
         {/* The Hero Logo with subtle breathing animation */}
         <div className="w-full max-w-lg md:max-w-2xl lg:max-w-3xl px-4 md:px-0 animate-subtle-float">
