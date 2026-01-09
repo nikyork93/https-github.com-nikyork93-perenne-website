@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrandLogo } from './components/BrandLogo.tsx';
+import { BrandLogo } from './components/BrandLogo';
 
 const App: React.FC = () => {
   return (

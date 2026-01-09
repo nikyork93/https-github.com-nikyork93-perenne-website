@@ -1,5 +1,5 @@
 import React from 'react';
-import { ComponentProps } from '../types.ts';
+import { ComponentProps } from '../types';
 
 export const BrandLogo: React.FC<ComponentProps> = ({ className }) => {
   return (
